@@ -46,7 +46,7 @@ A webserver will help us in achieving a separation of concerns. Our webserver ca
 
 #### `NGINX`: Old but gold?
 
-The classic, most widely used webserver is NGINX, which allows us to do all this and more.
+The classic, most widely used webserver is `NGINX`, which allows us to do all this and more.
 
 Though, `NGINX` has its fair share of problems including poor `HTTP` connection re-use and limited support for request failover. There were brought to light after [Cloudflare went public with Pingora](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/), its initiative to rewrite `NGINX` in Rust.
 
